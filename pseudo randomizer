@@ -1,7 +1,0 @@
-from random import randint
-from random import *
-pseudo_number = str(randint(1,10000))
-Pseudo = ["Julien"]
-pseudo_n = [pseudo_number]
-str = '_'.join([str(Pseudo[0]),pseudo_number])
-print (str)
