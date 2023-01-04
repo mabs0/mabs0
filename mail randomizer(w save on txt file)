@@ -1,13 +1,13 @@
 from random import randint
 import random
-import prenoms
+prenoms=[,//entrez des prénoms quelconques// ]
 
-for boucle in range(50) :
+for boucle in range(200) :
     pseudo_number = str(randint(1,100))
-    Pseudo = [prenoms.get_prenom(year=2005)]
+    Pseudo = [random.choice(prenoms)]
     random_pseudo = random.choice(Pseudo)
     stl = '_'.join([str(random_pseudo),pseudo_number])
     
-    fichier = open("C:/Users/User/Documents/mails.txt", "a")
+    fichier = open("C:/Users/maheb/Documents/mails.txt", "a")
     fichier.write(stl+"@gmail.com\n")
     fichier.close()
