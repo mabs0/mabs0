@@ -1,2 +1,4 @@
 install chromedriver :
   https://selenium-python.readthedocs.io/installation.html#drivers
+launch a terminal and install selenium :
+  "pip install selenium"
