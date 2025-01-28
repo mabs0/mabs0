@@ -1,2 +1,0 @@
-install chromedriver :
-  https://selenium-python.readthedocs.io/installation.html#drivers
